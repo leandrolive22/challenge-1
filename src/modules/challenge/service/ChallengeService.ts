@@ -8,7 +8,7 @@ class ChallengeService {
         let Real = Intl.NumberFormat('pt-BR', {
             style: 'currency',
             currency: 'BRL',
-        });
+        }); 
         const valueFormated = `${Real.format(value)}`;
         return (valueFormated);
     }

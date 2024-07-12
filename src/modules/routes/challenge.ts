@@ -9,3 +9,4 @@ const desafioController = new DesafioController();
 routerDesafio.get("/read-csv", desafioController.prepareReadCsv);
 
 export { routerDesafio };
+ 

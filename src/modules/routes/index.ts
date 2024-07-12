@@ -10,3 +10,4 @@ router.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 router.use("/challenge", routerDesafio);
 
 export { router };
+ 
