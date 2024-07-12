@@ -7,7 +7,7 @@ import "express-async-errors";
 import "reflect-metadata";
 import { router } from "./modules/routes";
 import { AppError } from "./shared/errors/AppError";
-
+   
 dotenv.config();
 
 require('dotenv').config();
